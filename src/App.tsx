@@ -41,7 +41,6 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       <Navbar />
       <Routes>
-        {/* Main Page */}
         <Route
           path="/"
           element={
@@ -97,7 +96,6 @@ function App() {
             </>
           }
         />
-        {/* Price Page */}
         <Route path="/price" element={<Price />} />
         <Route path="/market" element={<Market/>} />
         <Route path="/product/:id" element={<Product/>}/>
